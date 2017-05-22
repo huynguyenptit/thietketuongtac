@@ -1,0 +1,54 @@
+body{
+  font-family: $OpenSan;
+}
+.container-fluid{
+  padding: 0px;
+}
+.top{
+  z-index: 1;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  position: fixed;
+  background: #FFFFFF;
+  opacity: 0.8;
+  top: 0px;
+  .logo{
+    padding-left: 40px;
+    img{
+      width: 95px;
+      height: 73px;
+      margin-top: -9px;
+    }
+  }
+  .title{
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    //font-weight: bold;
+    color: $color_title;
+  }
+  .form-search{
+    .form-control {
+      border-radius: 2px;
+      margin-top: 3px;
+      border: 2px solid black;
+      color: black;
+      font-weight: bold;
+    }
+  }
+  .icon-search{
+    padding: 0px;
+  }
+  i{
+    margin-top: 5px;
+    font-size: 24px;
+    color: black;
+  }
+}
+.img-top{
+  img{
+    width: 100%;
+    height: 260px;
+  }
+}

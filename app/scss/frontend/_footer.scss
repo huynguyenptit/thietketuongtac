@@ -1,0 +1,30 @@
+.footer{
+  margin-top: 50px;
+  .line-top-footer{
+    background: $background_hover;
+    height: 15px;
+    width: 100%;
+  }
+  .box-content{
+    background: $background_menu;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .title{
+    font-size: 18px;
+  }
+  .contact-item{
+    margin-top: 5px;
+  }
+  .name{
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .maps{
+    iframe {
+      width: 100%;
+      height: 150px;
+    }
+  }
+}
