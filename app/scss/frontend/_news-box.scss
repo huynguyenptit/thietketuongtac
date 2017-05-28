@@ -131,6 +131,7 @@
   }
 }
 .multi-image{
+  position: relative;
   margin-top: 50px;
   height: auto;
   //padding: 5px;
@@ -149,5 +150,12 @@
       }
     }
   }
+  }
+  .see-more{
+    background: $background_menu;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
   }
 }
