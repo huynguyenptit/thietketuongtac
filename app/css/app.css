@@ -8668,7 +8668,7 @@ body {
 
 .product .item-product {
   position: relative;
-  margin-bottom: 41px; }
+  margin-bottom: 10px; }
   .product .item-product:hover .product-content {
     display: block; }
   .product .item-product img {
