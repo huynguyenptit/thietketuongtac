@@ -1,6 +1,10 @@
 body{
   font-family: $OpenSan;
 }
+.no-padding-left {
+  padding-left: 0 !important; }
+.no-padding {
+  padding: 0; }
 .container-fluid{
   padding: 0px;
 }

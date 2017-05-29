@@ -8281,6 +8281,12 @@ button.close {
 body {
   font-family: OpenSan; }
 
+.no-padding-left {
+  padding-left: 0 !important; }
+
+.no-padding {
+  padding: 0; }
+
 .container-fluid {
   padding: 0px; }
 
@@ -8506,3 +8512,118 @@ body {
 
 #news .box-left .multi-image {
   height: 300px; }
+
+#education .top-edu {
+  background: #F1F3EE;
+  box-shadow: 2px 2px 10px black;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  #education .top-edu .title {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px; }
+  #education .top-edu .table th {
+    text-align: center; }
+  #education .top-edu a {
+    color: #009B67; }
+    #education .top-edu a:hover {
+      cursor: pointer; }
+
+#education .bot-edu {
+  box-shadow: 2px 2px 10px black;
+  padding: 0px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  background: #F1F3EE; }
+  #education .bot-edu .title-topic {
+    color: black;
+    font-weight: bold;
+    height: 70px;
+    padding: 0px;
+    background: #E1DEE1;
+    text-align: center; }
+    #education .bot-edu .title-topic .title {
+      margin-top: 5px; }
+      #education .bot-edu .title-topic .title span {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 25px; }
+    #education .bot-edu .title-topic .select-topic {
+      line-height: 70px; }
+      #education .bot-edu .title-topic .select-topic select {
+        background: #F1F3EE;
+        margin-top: 20px; }
+  #education .bot-edu .left {
+    margin-top: 40px; }
+    #education .bot-edu .left .item-edu {
+      background: #E1DEE1;
+      margin-bottom: 9px;
+      padding: 10px;
+      height: auto;
+      text-align: justify; }
+    #education .bot-edu .left .title-news {
+      margin-bottom: 3px;
+      padding: 0px;
+      font-size: 16px; }
+    #education .bot-edu .left a {
+      color: red; }
+    #education .bot-edu .left .img {
+      padding-left: 0px; }
+    #education .bot-edu .left img {
+      width: 100%;
+      height: 90px; }
+    #education .bot-edu .left .time {
+      padding: 0;
+      padding-top: 2px;
+      text-align: right;
+      font-style: italic; }
+    #education .bot-edu .left .write-by {
+      font-style: italic;
+      text-align: right; }
+  #education .bot-edu .right {
+    margin-top: 40px;
+    background: #E1DEE1;
+    width: 34.66667%;
+    margin-left: 70px; }
+    #education .bot-edu .right .box-title-new {
+      text-align: center;
+      color: #FFFFFF;
+      font-weight: bold;
+      background: #ba2a0f;
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px; }
+    #education .bot-edu .right .box-content-new-post {
+      height: 185px;
+      overflow: hidden;
+      margin-top: 15px;
+      margin-bottom: 20px; }
+    #education .bot-edu .right .item-new-post {
+      margin-bottom: 5px;
+      border-bottom: 1px dotted #cccccc; }
+    #education .bot-edu .right .img {
+      padding-left: 0px; }
+    #education .bot-edu .right img {
+      width: 100%;
+      height: 50px; }
+    #education .bot-edu .right .news-ptit {
+      background: none;
+      box-shadow: none;
+      height: auto; }
+
+.time {
+  padding: 0;
+  padding-top: 2px;
+  color: #1b6d85;
+  text-align: right;
+  font-style: italic;
+  font-size: 12px; }
+
+.write-by {
+  font-size: 12px;
+  color: #1b6d85;
+  font-style: italic;
+  text-align: right; }
