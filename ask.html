@@ -298,13 +298,28 @@
         </div>
     </div>
 </div>
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
 
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                <p style="text-align: center;font-size: 30px;color: green">Gửi thành công</p>
+            </div>
+        </div>
+
+    </div>
 <script>
     setInterval(function(){
         var last_item = $('.box-content-new-post .item-new-post:last');
         $('.box-content-new-post').prepend(last_item.hide());
         last_item.slideDown(1000);
     }, 3000);
+    $('.btn-info').click(function () {
+        $('#add_ans').modal('hide');
+        $('#add_ask').modal('hide');
+        $('#myModal').modal('show');
+    })
 </script>
 </body>
 </html>
